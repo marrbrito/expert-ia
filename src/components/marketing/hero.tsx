@@ -56,8 +56,8 @@ const Hero = () => {
 
                     <div className="rounded-lg lg:rounded-[24px] border p-2 border-neutral-700 bg-black">
                         <Image
-                            src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=1920&auto=format&fit=crop"
-                            alt="IA e Crypto - Inteligência Artificial"
+                            src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1920&auto=format&fit=crop"
+                            alt="Matrix Code - IA e Crypto"
                             width={1920}
                             height={1080}
                             className="rounded-lg lg:rounded-[20px]"
