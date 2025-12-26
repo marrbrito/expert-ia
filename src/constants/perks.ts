@@ -5,32 +5,32 @@ import React from "react";
 export const PERKS = [
     {
         icon: ZapIcon,
-        title: "Fast and Efficient",
-        description: "Experience quick and seamless content creation with our optimized AI tools."
+        title: "Implementação Rápida",
+        description: "Soluções de IA implementadas de forma ágil e eficiente para acelerar seus resultados."
     },
     {
         icon: ChartSplineIcon,
-        title: "Insightful Analytics",
-        description: "Gain valuable insights and analytics to enhance your social media strategy."
+        title: "Análise de Dados Avançada",
+        description: "Insights poderosos com machine learning para tomada de decisões estratégicas."
     },
     {
         icon: LifeBuoyIcon,
-        title: "24/7 Support",
-        description: "Our team is available around the clock to assist with any issues or questions."
+        title: "Suporte Especializado",
+        description: "Consultores especializados disponíveis para guiar sua jornada de transformação digital."
     },
     {
         icon: PaletteIcon,
-        title: "Customizable Solutions",
-        description: "Tailor the tools and features to fit your unique social media needs."
+        title: "Soluções Personalizadas",
+        description: "Projetos de IA customizados para atender às necessidades específicas do seu negócio."
     },
     {
         icon: ShieldCheckIcon,
-        title: "Secure and Reliable",
-        description: "Trust our platform to keep your data safe and ensure consistent performance."
+        title: "Segurança e Compliance",
+        description: "Implementações seguras seguindo as melhores práticas de governança de dados."
     },
     {
         icon: WaypointsIcon,
-        title: "Seamless Integration",
-        description: "Easily integrate with your existing social media platforms and tools."
+        title: "Integração Completa",
+        description: "Conectamos soluções de IA aos seus sistemas existentes de forma transparente."
     },
 ];

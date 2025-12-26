@@ -46,40 +46,36 @@ export const SIDEBAR_LINKS: Link[] = [
 
 export const FOOTER_LINKS = [
     {
-        title: "Product",
+        title: "Serviços",
         links: [
-            { name: "Home", href: "/" },
-            { name: "Features", href: "/" },
-            { name: "Pricing", href: "/" },
-            { name: "Contact", href: "/" },
-            { name: "Download", href: "/" },
+            { name: "Consultoria IA", href: "#services" },
+            { name: "Machine Learning", href: "#services" },
+            { name: "Automação", href: "#services" },
+            { name: "Analytics", href: "#services" },
         ],
     },
     {
-        title: "Resources",
+        title: "Empresa",
         links: [
+            { name: "Sobre Nós", href: "/about" },
+            { name: "Cases", href: "/cases" },
             { name: "Blog", href: "/blog" },
-            { name: "Help Center", href: "/help-center" },
-            { name: "Community", href: "/community" },
-            { name: "Guides", href: "/guides" },
+            { name: "Contato", href: "#contact" },
         ],
     },
     {
         title: "Legal",
         links: [
-            { name: "Privacy", href: "/privacy" },
-            { name: "Terms", href: "/terms" },
-            { name: "Cookies", href: "/cookies" },
+            { name: "Privacidade", href: "/privacy" },
+            { name: "Termos", href: "/terms" },
         ],
     },
     {
-        title: "Developers",
+        title: "Contato",
         links: [
-            { name: "API Docs", href: "/api-docs" },
-            { name: "SDKs", href: "/sdks" },
-            { name: "Tools", href: "/tools" },
-            { name: "Open Source", href: "/open-source" },
-            { name: "Changelog", href: "/changelog" },
+            { name: "WhatsApp", href: "#" },
+            { name: "Email", href: "mailto:contato@decisiononeia.com" },
+            { name: "LinkedIn", href: "#" },
         ],
     },
 ];

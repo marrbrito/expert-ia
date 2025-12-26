@@ -18,15 +18,15 @@ const Menu = () => {
         <NavigationMenu>
             <NavigationMenuList>
                 <NavigationMenuItem>
-                    <Link href="/docs" legacyBehavior passHref>
+                    <Link href="#services" legacyBehavior passHref>
                         <NavigationMenuLink className="h-10 px-4 py-2 text-sm font-normal rounded-md text-muted-foreground hover:text-foreground w-max hover:bg-none">
-                            How it works
+                            Como Funciona
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <NavigationMenuTrigger className="text-muted-foreground hover:text-foreground">
-                        Features
+                        Serviços
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <ul className="grid rounded-3xl gap-3 p-4 md:w-[400px] lg:w-[500px] xl:w-[550px] lg:grid-cols-[.75fr_1fr]">
@@ -38,51 +38,51 @@ const Menu = () => {
                                     >
                                         <Icons.icon className="w-6 h-6" />
                                         <div className="my-2 text-lg font-normal">
-                                            Luro AI
+                                            Decision One IA
                                         </div>
                                         <p className="text-sm text-muted-foreground">
-                                            Your ultimate social media management tool
+                                            Consultoria especializada em Inteligência Artificial
                                         </p>
                                     </Link>
                                 </NavigationMenuLink>
                             </li>
-                            <Item title="Content Calendar" href="/features/content-calendar" icon={<CalendarRangeIcon className="w-5 h-5" />}>
-                                Plan and visualize your content strategy.
+                            <Item title="Consultoria em IA" href="#services" icon={<CalendarRangeIcon className="w-5 h-5" />}>
+                                Planejamento estratégico de soluções de IA.
                             </Item>
-                            <Item title="Hashtag Manager" href="/features/hashtag-manager" icon={<HashIcon className="w-5 h-5" />}>
-                                Research and track trending hashtags.
+                            <Item title="Machine Learning" href="#services" icon={<HashIcon className="w-5 h-5" />}>
+                                Desenvolvimento de modelos personalizados.
                             </Item>
-                            <Item title="Competitor Analysis" href="/features/competitor-analysis" icon={<UsersIcon className="w-5 h-5" />}>
-                                Monitor and analyze competitor performance.
+                            <Item title="Automação Inteligente" href="#services" icon={<UsersIcon className="w-5 h-5" />}>
+                                Automatize processos com inteligência artificial.
                             </Item>
                         </ul>
                     </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <Link href="/pricing" legacyBehavior passHref>
+                    <Link href="#pricing" legacyBehavior passHref>
                         <NavigationMenuLink className="h-10 px-4 py-2 text-sm font-normal rounded-md text-muted-foreground hover:text-foreground w-max hover:bg-none">
-                            Pricing
+                            Planos
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <Link href="/integrations" legacyBehavior passHref>
+                    <Link href="#about" legacyBehavior passHref>
                         <NavigationMenuLink className="h-10 px-4 py-2 text-sm font-normal rounded-md text-muted-foreground hover:text-foreground w-max hover:bg-none">
-                            Integrations
+                            Sobre Nós
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <NavigationMenuTrigger className="text-muted-foreground hover:text-foreground">
-                        Resources
+                        Recursos
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <ul className="grid w-[400px] gap-3 p-4 md:w-[400px] md:grid-cols-2 lg:w-[500px] xl:w-[500px]">
-                            <Item title="Blog" href="/resources/blog" icon={<Newspaper className="w-5 h-5" />}>
-                                Read our latest articles and updates.
+                            <Item title="Blog" href="/blog" icon={<Newspaper className="w-5 h-5" />}>
+                                Leia nossos artigos e novidades.
                             </Item>
-                            <Item title="Support" href="/resources/support" icon={<CircleHelp className="w-5 h-5" />}>
-                                Get help with any issues you may have.
+                            <Item title="Suporte" href="#contact" icon={<CircleHelp className="w-5 h-5" />}>
+                                Tire suas dúvidas com nossa equipe.
                             </Item>
                         </ul>
                     </NavigationMenuContent>

@@ -12,60 +12,59 @@ type PLAN = {
 
 export const PLANS: PLAN[] = [
     {
-        id: "free",
-        title: "Free",
-        desc: "Get started with essential tools for social media content creation",
+        id: "starter",
+        title: "Starter",
+        desc: "Consultoria inicial para empresas começando com IA",
         monthlyPrice: 0,
         yearlyPrice: 0,
-        buttonText: "Get Started",
+        buttonText: "Agendar Reunião",
         features: [
-            "Basic AI content generation",
-            "4 social media integrations",
-            "Community support",
-            "1 project limit",
-            "Standard analytics",
-            "Basic image generation"
+            "Diagnóstico inicial gratuito",
+            "Avaliação de maturidade em IA",
+            "Roadmap básico de implementação",
+            "1 hora de consultoria",
+            "Relatório de oportunidades",
+            "Suporte por email"
         ],
-        link: "https://stripe.com/free-plan-link"
+        link: "#contact"
     },
     {
-        id: "pro",
-        title: "Pro",
-        desc: "Unlock advance features for enhanced content and strategy",
-        monthlyPrice: 10,
-        yearlyPrice: 120,
-        badge: "Most Popular",
-        buttonText: "Upgrade to Pro",
+        id: "professional",
+        title: "Professional",
+        desc: "Implementação completa de soluções de IA para seu negócio",
+        monthlyPrice: 2500,
+        yearlyPrice: 25000,
+        badge: "Mais Popular",
+        buttonText: "Contratar",
         features: [
-            "Advanced AI content generation",
-            "10 social media integrations",
-            "Priority email support",
-            "10 project limit",
-            "Enhanced analytics & insights",
-            "Pro model image generation",
-            "Team collaboration tools",
-            "Custom branding options"
+            "Desenvolvimento de modelos customizados",
+            "Integração com sistemas existentes",
+            "Suporte prioritário",
+            "Até 3 projetos simultâneos",
+            "Treinamento da equipe",
+            "Dashboards de analytics",
+            "Reuniões semanais",
+            "Documentação completa"
         ],
-        link: "https://stripe.com/pro-plan-link"
+        link: "#contact"
     },
     {
         id: "enterprise",
         title: "Enterprise",
-        desc: "Tailored solutions for large organizations and agencies",
-        monthlyPrice: 15,
-        yearlyPrice: 180,
-        badge: "Contact Sales",
-        buttonText: "Upgrade to Enterprise",
+        desc: "Transformação digital completa com IA para grandes empresas",
+        monthlyPrice: 5000,
+        yearlyPrice: 50000,
+        badge: "Fale Conosco",
+        buttonText: "Falar com Especialista",
         features: [
-            "Unlimited AI content generation",
-            "All social media integrations",
-            "Dedicated account manager",
-            "Unlimited projects",
-            "Custom analytics & reporting",
-            "Enterprise-grade security",
-            "Free updates",
-            // "24/7 priority support"
+            "Soluções de IA ilimitadas",
+            "Arquitetura enterprise-grade",
+            "Gerente de conta dedicado",
+            "Projetos ilimitados",
+            "Analytics e BI avançados",
+            "Segurança e compliance",
+            "SLA garantido",
         ],
-        link: "https://stripe.com/enterprise-plan-link"
+        link: "#contact"
     }
 ];

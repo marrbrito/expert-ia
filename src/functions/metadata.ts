@@ -17,8 +17,8 @@ interface MetadataProps {
 }
 
 export const generateMetadata = ({
-    title = `${process.env.NEXT_PUBLIC_APP_NAME} - Smart Social Media Marketing Platform`,
-    description = "Streamline your social media management with AI-powered analytics, scheduling, and content optimization. Get real-time insights, automate posts, and boost engagement across all platforms",
+    title = `${process.env.NEXT_PUBLIC_APP_NAME} - IA Consulting Services`,
+    description = "Transform your business with expert AI consulting. Custom AI solutions, machine learning implementation, and strategic AI guidance for enterprise growth",
     image = "/thumbnail.png",
     icons = [
         {
@@ -36,12 +36,14 @@ export const generateMetadata = ({
     ],
     noIndex = false,
     keywords = [
-        "AI content creation",
-        "content automation",
-        "AI writing assistant",
-        "content generation",
-        "artificial intelligence",
-        "content marketing"
+        "AI consulting",
+        "machine learning consulting",
+        "AI implementation",
+        "artificial intelligence services",
+        "AI strategy",
+        "enterprise AI solutions",
+        "AI transformation",
+        "ML consulting"
     ],
     author = process.env.NEXT_PUBLIC_AUTHOR_NAME,
     twitterHandle = "@yourtwitterhandle",
@@ -51,7 +53,7 @@ export const generateMetadata = ({
     publishedTime,
     modifiedTime
 }: MetadataProps = {}): Metadata => {
-    const metadataBase = new URL(process.env.NEXT_PUBLIC_APP_URL || "https://luro-ai.vercel.app");
+    const metadataBase = new URL(process.env.NEXT_PUBLIC_APP_URL || "https://decision-one-ia.vercel.app");
     const imageUrl = image ? new URL(image, metadataBase).toString() : null;
 
     return {
